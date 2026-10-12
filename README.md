@@ -5,6 +5,20 @@ application or requirement with **enforced** quality gates. Not a suggestion
 list — measurable thresholds and a read-only reviewer that must return
 `VERDICT: APPROVED` before any change counts as done.
 
+## One-click install (Agensi marketplace)
+
+All three skills are live on [Agensi](https://agensi.io) — free, security-scanned,
+working with Claude Code, Cursor, Codex CLI and 20+ other agents:
+
+| Skill | Listing |
+| --- | --- |
+| **craft** — quality-gated build & refactor workflow | <https://www.agensi.io/skills/craft> |
+| **craft-review** — read-only quality-gate reviewer | <https://www.agensi.io/skills/craft-review> |
+| **craft-gates** — the quantitative rulebook | <https://www.agensi.io/skills/craft-gates> |
+
+This GitHub repo stays the source of truth (MIT); the marketplace listings are
+the same skills, installable with one prompt.
+
 ## Why
 
 AI coding agents happily ship a 90-line function with 6 nesting levels, three
